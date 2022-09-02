@@ -1,6 +1,8 @@
 #!/bin/sh
 
 if [ "$1" = '-h' ] || [ "$1" = '--help' ] || [ -z "$@" ]; then
+    printf "Prints the number of lines containing non-whitespace characters\n"
+    printf "in the specified file(s) as well as an overall total.\n"
     printf "Usage: $0 [-h] [--help]\n"
     printf "       $0 FILE [FILE(s)...]\n"
 fi
